@@ -11,7 +11,7 @@ $txt ="Name = ". $fname .$lname . "\r\n  Email = " . $email . "\r\n Phone=" .$nu
 $headers = "From: wowbow.co.in" . "\r\n" .
 "CC: roundrobin450@gmai.com";
 if($email!=NULL){
-    mail($to,$subject,$txt,$headers);
+// mail($to,$subject,$txt,$headers);
 }
 //redirect
 header("Location:thankyou.html");
