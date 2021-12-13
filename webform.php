@@ -67,7 +67,7 @@
     ?>
     <div style="background-image: url(imgges/wb.jpg);"></div>
     <div class="container">
-        <form action="webform.php" method="GET" class="form">
+        <form action="webform.php" method="POST" class="form">
             <div class="form-group">
                 <label for="name" class="form-label">Your Name</label>
                 <inpu type="text" class="form-control" <?= $invalid_class_name ?? ""?>     id="name" name="name" placeholder="Name" tabindex="1" required>
